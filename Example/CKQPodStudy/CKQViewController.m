@@ -8,6 +8,8 @@
 
 #import "CKQViewController.h"
 
+#import <CKQPodStudy/CKQPodStudy.h>
+
 @interface CKQViewController ()
 
 @end
@@ -18,6 +20,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UILabel *label = [[UILabel alloc] init];
+    [self.view addSubview:label];
+    
+    
+    NSArray *fiboArr = [CKQFibo arr: 10];
+    
+    label.text = [NSString stringWithFormat:@"%@", [fiboArr componentsJoinedByString:@"->"]];
+    [label sizeToFit];
+    label.center = self.view.center;
 }
 
 - (void)didReceiveMemoryWarning

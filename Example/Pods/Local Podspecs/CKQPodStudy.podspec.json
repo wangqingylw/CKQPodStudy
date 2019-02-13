@@ -1,0 +1,23 @@
+{
+  "name": "CKQPodStudy",
+  "version": "0.1.0",
+  "summary": "A short description of CKQPodStudy.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/王青/CKQPodStudy",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "王青": "wangqing28@meituan.com"
+  },
+  "source": {
+    "git": "https://github.com/王青/CKQPodStudy.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CKQPodStudy/Classes/**/*",
+  "public_header_files": "CKQPodStudy/Classes/**/*.h"
+}
