@@ -22,7 +22,7 @@ pod 'CKQPodStudy'
 
 ## Author
 
-王青, wangqing28@meituan.com
+王青, wq.cyan@gmail.com
 
 ## License
 
