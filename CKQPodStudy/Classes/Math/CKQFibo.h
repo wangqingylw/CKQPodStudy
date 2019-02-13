@@ -7,12 +7,11 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void(^CKQFiboReducePreBlock)(void);
 typedef void(^CKQFiboReduceBlock)(NSInteger cur);
 
-@interface CKQMath : NSObject
-+ (NSInteger)fibo:(NSInteger)input;
-+ (NSInteger)fiboSum:(NSInteger)input;
-+ (NSArray *)fiboArr:(NSInteger)input;
-+ (void)fiboReduce:(NSInteger)cnt pre:(CKQFiboReducePreBlock)preBlock reduce:(CKQFiboReduceBlock)reduceBlock;
+@interface CKQFibo : NSObject
++ (NSInteger)num:(NSInteger)index;
++ (NSInteger)sum:(NSInteger)cnt;
++ (NSArray *)arr:(NSInteger)cnt;
++ (void)reduce:(NSInteger)cnt block:(CKQFiboReduceBlock)reduceBlock;
 @end
