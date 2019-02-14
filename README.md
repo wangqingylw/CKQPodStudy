@@ -19,13 +19,13 @@ NSArray *fiboArr = [CKQFibo arr: 10];
 
 ## Installation
 
-CKQPodStudy is not available through [CocoaPods](https://cocoapods.org). To install it, you need add below to the head of Podfile
+CKQPodStudy is not available through [CocoaPods](https://cocoapods.org). To install it, you need add below to the head of Podfile:
 
 ```ruby
 source "https://github.com/wangqingylw/ckqspec.git" 
 ```
 
-and add the following line to your Podfile:
+then add the following line to your Podfile:
 
 ```ruby
 pod 'CKQPodStudy'
